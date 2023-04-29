@@ -15,6 +15,7 @@ function App() {
         <Navber />
         <Routes>
           <Route path="/" element={<Page/>} />
+          <Route path="/getandput" element={<Page/>} />
           <Route path="/home" element={<Page/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -10,8 +10,11 @@ const Footer = () => {
               Get & Put Knowledge
             </h5>
             <p>
-              Designed and built with all the love in the world by the Bootstrap
-              team with the help of our contributors.
+              In today's fast-paced and rapidly changing world, the ability to
+              "get" and "put" knowledge is essential for success. Whether you
+              are a student, a professional, or simply someone who wants to
+              learn and grow, it is important to make a conscious effort to both
+              seek out new knowledge and share your own knowledge with others.
             </p>
           </div>
           {/* links------------ */}
@@ -56,7 +59,8 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-md-7 col-lg-8">
               <p>
-                Copyright &copy;{new Date().getFullYear()} All rights reserved by:
+                Copyright &copy;{new Date().getFullYear()} All rights reserved
+                by:
                 <a href=" " className="text-warning text-decoration-none ms-1">
                   <strong>The Providers</strong>
                 </a>
@@ -66,27 +70,42 @@ const Footer = () => {
               <div className="text-center text-md-right">
                 <ul className="list-unstyled list-inline">
                   <li className="list-inline-item">
-                    <a href=" " className="btn-floating btn-sm text-white fs-5 me-3">
+                    <a
+                      href=" "
+                      className="btn-floating btn-sm text-white fs-5 me-3"
+                    >
                       <i className="fab fa-facebook"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href=" " className="btn-floating btn-sm text-white fs-5 me-3">
+                    <a
+                      href=" "
+                      className="btn-floating btn-sm text-white fs-5 me-3"
+                    >
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href=" " className="btn-floating btn-sm text-white fs-5 me-3">
+                    <a
+                      href=" "
+                      className="btn-floating btn-sm text-white fs-5 me-3"
+                    >
                       <i className="fab fa-google-plus"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href=" " className="btn-floating btn-sm text-white fs-5 me-3">
+                    <a
+                      href=" "
+                      className="btn-floating btn-sm text-white fs-5 me-3"
+                    >
                       <i className="fab fa-linkedin"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href=" " className="btn-floating btn-sm text-white fs-5 me-3">
+                    <a
+                      href=" "
+                      className="btn-floating btn-sm text-white fs-5 me-3"
+                    >
                       <i className="fab fa-youtube"></i>
                     </a>
                   </li>
